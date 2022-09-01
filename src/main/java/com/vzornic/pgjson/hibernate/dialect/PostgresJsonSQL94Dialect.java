@@ -1,6 +1,5 @@
 package com.vzornic.pgjson.hibernate.dialect;
 
-import org.hibernate.dialect.PostgreSQL93Dialect;
 import org.hibernate.dialect.PostgreSQL94Dialect;
 import org.hibernate.dialect.function.SQLFunctionTemplate;
 import org.hibernate.type.StringType;

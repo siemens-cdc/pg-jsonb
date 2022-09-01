@@ -6,7 +6,7 @@
 
     <groupId>com.vzornic.pgjsonb</groupId>
     <artifactId>pgjsonb</artifactId>
-    <version>1.2.0</version>
+    <version>1.4.0</version>
 
     <name>${project.groupId}:${project.artifactId}&lt;</name>
     <description>Easy use of PostgreSQL json data types with Hibernate or JDBC</description>
@@ -69,7 +69,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.4.12.Final</version>
+            <version>5.6.3.Final</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
         <dependency>
@@ -81,12 +81,6 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.9</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
         <dependency>

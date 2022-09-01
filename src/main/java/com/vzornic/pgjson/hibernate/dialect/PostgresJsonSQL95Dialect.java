@@ -1,13 +1,13 @@
 package com.vzornic.pgjson.hibernate.dialect;
 
-import org.hibernate.dialect.PostgreSQL95Dialect;
+import org.hibernate.dialect.PostgreSQL94Dialect;
 import org.hibernate.dialect.function.SQLFunctionTemplate;
 import org.hibernate.type.StringType;
 
 /**
  * Hibernate dialect to support json queries with HQL
  */
-public class PostgresJsonSQL95Dialect extends PostgreSQL95Dialect {
+public class PostgresJsonSQL95Dialect extends PostgreSQL94Dialect {
 
 	public PostgresJsonSQL95Dialect() {
 		registerFunction("internal_json_text_1", new SQLFunctionTemplate(StringType.INSTANCE, "?1->>?2"));
