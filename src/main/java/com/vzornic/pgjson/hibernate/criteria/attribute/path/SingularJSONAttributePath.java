@@ -7,8 +7,8 @@ import org.hibernate.query.criteria.internal.PathSource;
 import org.hibernate.query.criteria.internal.compile.RenderingContext;
 import org.hibernate.query.criteria.internal.path.SingularAttributePath;
 
-import javax.persistence.metamodel.IdentifiableType;
-import javax.persistence.metamodel.ManagedType;
+import jakarta.persistence.metamodel.IdentifiableType;
+import jakarta.persistence.metamodel.ManagedType;
 
 /**
  * AttributePath specifying postgress JSON fields. It allows to select a single field inside json data field.

@@ -3,8 +3,8 @@ package com.vzornic.pgjson.hibernate.criteria.attribute;
 import com.vzornic.pgjson.hibernate.criteria.attribute.path.SingularJSONAttributePath;
 import org.hibernate.query.criteria.internal.path.RootImpl;
 
-import javax.persistence.criteria.Path;
-import javax.persistence.metamodel.Attribute;
+import jakarta.persistence.criteria.Path;
+import jakarta.persistence.metamodel.Attribute;
 
 /**
  * Wrapper for {@link RootImpl} to support json queries.

@@ -7,9 +7,9 @@ import org.hibernate.metamodel.model.domain.internal.AbstractManagedType;
 import org.hibernate.metamodel.model.domain.internal.BasicTypeImpl;
 import org.hibernate.metamodel.model.domain.spi.SimpleTypeDescriptor;
 
-import javax.persistence.metamodel.Attribute;
-import javax.persistence.metamodel.SingularAttribute;
-import javax.persistence.metamodel.Type;
+import jakarta.persistence.metamodel.Attribute;
+import jakarta.persistence.metamodel.SingularAttribute;
+import jakarta.persistence.metamodel.Type;
 import java.io.Serializable;
 
 /**

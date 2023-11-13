@@ -9,9 +9,9 @@ import org.hibernate.query.Query;
 import org.hibernate.query.criteria.internal.path.RootImpl;
 import org.junit.Test;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Root;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.Root;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
